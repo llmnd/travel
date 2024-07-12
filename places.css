@@ -222,3 +222,74 @@
     background-color: #a35396;
     transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
 }
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu ul li {
+        margin: 5px 0;
+    }
+
+    .menu ul li a {
+        font-size: 16px; /* Diminue la taille de la police pour le menu */
+        padding: 4px 10px; /* Diminue le padding pour le menu */
+    }
+
+    .signup a {
+        font-size: 16px; /* Diminue la taille de la police pour le bouton */
+        padding: 8px 20px; /* Diminue le padding pour le bouton */
+    }
+
+    .button2 {
+        font-size: 14px; /* Diminue la taille de la police pour le bouton "Dark Mode" */
+        padding: 6px 12px; /* Diminue le padding pour le bouton "Dark Mode" */
+        border-radius: 6px; /* Ajuste le rayon des bordures pour correspondre à la nouvelle taille */
+        box-shadow: 3px 3px 6px #c5c5c5, -3px -3px 6px #ffffff; /* Ajuste l'ombre pour la nouvelle taille */
+    }
+
+    .button2:before, .button2:after {
+        width: 120%; /* Réduit la taille des effets */
+        height: 150%; /* Réduit la taille des effets */
+    }
+
+    .heading h1 {
+        font-size: 28px; /* Diminue la taille de la police pour le titre principal */
+    }
+
+    .heading a {
+        font-size: 20px; /* Diminue la taille de la police pour le lien */
+        padding: 10px 30px; /* Diminue le padding pour le lien */
+    }
+
+    .tours {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .footer a {
+        font-size: 16px; /* Diminue la taille de la police pour les liens du pied de page */
+    }
+
+    .places-container {
+        width: 90%; /* Ajuste la largeur pour mieux s'adapter aux petits écrans */
+    }
+
+    .place-card {
+        width: 100%;
+    }
+}
+
