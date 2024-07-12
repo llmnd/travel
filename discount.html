@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nos Réductions</title>
+    <link rel="stylesheet" href="discount.css">
+    <button class="button2"><a href="index.html">Home</a></button>
+    <link rel="stylesheet" href="places.css">
+    <link rel="stylesheet" href="a.css">
+</head>
+<body>
+    <header>
+        <h2>Nos Réductions</h2>
+    </header>
+    <main>
+        <section class="discounts">
+            <div class="discount" onclick="showDiscountDetails('discount1')">
+                <h2>Réductions sur les Vols</h2>
+                <p>Profitez de nos meilleures offres pour vos vols.</p>
+                <div id="discount1" class="discount-details">
+                    <p>Profitez de 15% de réduction sur vos réservations de vols.</p>
+                </div>
+            </div>
+            <div class="discount" onclick="showDiscountDetails('discount2')">
+                <h2>Réductions sur les Hôtels</h2>
+                <p>Obtenez des réductions incroyables sur vos réservations d'hôtels.</p>
+                <div id="discount2" class="discount-details">
+                    <p>Bénéficiez de 25% de réduction sur les réservations d'hôtels.</p>
+                </div>
+            </div>
+            <div class="discount" onclick="showDiscountDetails('discount3')">
+                <h2>Réductions sur les Locations de Voitures</h2>
+                <p>Bénéficiez de réductions pour la location de voitures.</p>
+                <div id="discount3" class="discount-details">
+                    <p>Profitez de 20% de réduction sur les locations de voitures.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="discount.js"></script>
+</body>
+</html>

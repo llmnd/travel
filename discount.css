@@ -1,0 +1,66 @@
+body {
+    font-family: 'Bell MT', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #a08ea2;
+    color: #333;
+    background: rgb(114, 37, 55);
+
+    text-decoration: none;
+}
+
+header {
+    background-color: #1e163c;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(to right, #382330, #520a1b);
+}
+
+main {
+    padding: 20px;
+}
+
+.discounts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.discount {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.discount h2 {
+    margin-top: 0;
+}
+
+.discount p {
+    margin: 10px 0;
+}
+
+.discount-details {
+    display: none;
+    margin-top: 10px;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+footer {
+    background-color: #321e54;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nos Services</title>
+    <link rel="stylesheet" href="service.css">
+
+ <link rel="stylesheet" href="index.css">
+    <button class="button2"><a href="index.html">Home</a></button>
+    <link rel="stylesheet" href="places.css">
+    <link rel="stylesheet" href="a.css">
+
+    
+    
+</head>
+<body>
+    <header>
+        <h2>Nos Services</h2>
+    </header>
+    <main>
+        <section class="services">
+            <div class="service" onclick="showServiceDetails('service1')">
+                <h2><a href="https://fr.trip.com/flights/?locale=fr-FR&curr=EUR"> Réservations de Vols</a></h2>
+                <p>Nous offrons les meilleures options pour vos réservations de vols.</p>
+                <div id="service1" class="service-details">
+                    <p>Vols Domestiques : Explorez le Sénégal en toute simplicité grâce à notre vaste réseau de vols domestiques. Que vous visitiez Dakar, Saint-Louis, ou Ziguinchor, nous vous emmenons partout.</p>
+                </div>
+            </div>
+            <div class="service" onclick="showServiceDetails('service2')">
+                <h2><a href="https://fr.trip.com/hotels/foundiougne-hotel-detail-8142731/fathala-wildlife-reserve/?cityId=76856&adult=1&children=0&ages=&crn=1&travelpurpose=0&hoteluniquekey=H4sIAAAAAAAAAOPi5-KVYDT4DwOMUgopSUnmKamGZilGSRYmBqkWiUkGhuYWKaaphubGKSmmZgpcGldXrt7CZiR7ilHK0NzIwNjQxMzY3MDYWC_RIsncMrTM2aws2ciDMYjN0czcwtEoik-K2TU0SLHndgZDfqO8QxJrWpGuW1DGPX4Ap2lthH4AAAA&edmHotelData="> Hôtels</a></h2>
+                <p>Trouvez et réservez des hôtels de qualité partout dans le monde.</p>
+                <div id="service2" class="service-details">
+                    <p>Hôtels 5 Étoiles : Profitez du luxe absolu avec nos hôtels 5 étoiles, offrant des services haut de gamme, des spas, des restaurants gastronomiques et des suites somptueuses.</p>
+                </div>
+            </div>
+            <div class="service" onclick="showServiceDetails('service3')">
+                <h2><a href="https://fr.trip.com/carhire/?channelid=14409&locale=fr-FR&curr=EUR">Location de Voitures</a></h2>
+                <p>Louez des voitures pour votre confort et commodité.</p>
+                <div id="service3" class="service-details">
+                    <p>Idéales pour les déplacements en ville, nos voitures compactes allient économie de carburant et praticité sans compromis sur le confort.</p>
+                </div>
+            </div>
+        </section>
+
+        <br>
+        <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="v5.jpg" style="width: 400px; height: 250px; border-radius: 12px;">
+                        </div>
+                        <div class="flip-card-back">
+                            <video class="flip-card-front" autoplay muted loop style="width: 400px; height: 250px; border-radius: 12px;">
+                                <source src="v3.mp4" type="video/mp4">
+                            </video>
+        <div>
+        </div>
+        
+        <div class="video-container">
+            <video controls class="interactive-video">
+                <source src=".mp4" type="video/mp4">
+            </video>
+        </div>
+    </main>
+    <script src="service.js"></script>
+</body>
+</html>

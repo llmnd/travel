@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="f.css">
+    <title>Formulaire JavaScript</title>
+    <meta name="description" content="formulaire" />
+    <button class="button2"><a href="index.html">Home</a></button>
+    <link rel="stylesheet" href="places.css">
+    <link rel="stylesheet" href="a.css">
+    
+</head>
+<header>
+	<h2> INFORMATIONS</h2>
+	</header>
+<body>
+    <form id="form" name="FormValid" onsubmit="return(validate());" class="topBefore">
+        <input id="nom" name="nom" type="text" placeholder="NOM"><br>
+        <input id="prenom" name="prenom" type="text" placeholder="PRENOM"><br>
+        <select id="selection" name="selection">
+            <option value="-1" selected>CIVILITÉ</option>
+            <option value="1">MADAME</option>
+            <option value="2">MONSIEUR</option>
+        </select><br>
+        <input id="email" name="email" type="email" placeholder="E-MAIL"><br>
+        <textarea id="message" type="text" name="message" placeholder="MESSAGE"></textarea><br>
+        <div class="radio">
+            <label><input type="radio" name="radPro" value="1" style="width:16px; height:10px;">Professionnel</label>
+            <label><input type="radio" name="radPro" value="2" style="width:16px; height:10px;">Personnel</label><br>
+        </div>
+        <input id="submit" type="submit" onclick="return radioValidation();" value="ENVOYER !">              
+    </form>
+    <script src="yoo.js"></script>
+</body>
+</html>
